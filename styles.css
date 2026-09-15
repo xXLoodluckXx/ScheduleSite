@@ -1,0 +1,108 @@
+* {
+    border-width: 0.4vh;
+    font-family: "Huninn", sans-serif;
+    font-size: calc((40vh)/20);
+}
+
+body {
+    background-color: #FFE6EF;
+    height: 100%;
+    width: max-content;
+}
+
+#tab {
+    background-color: #FEB7D5;
+    width: 40vh;
+    max-width: calc(100vw - 25vh);
+    height: calc((15vh * 0.4) + 0.4vh);
+    box-sizing: border-box;
+    position: absolute;
+    border-style: solid;
+    border-bottom-style: none;
+    border-color: #3D1B29;
+    border-radius: 3vh 3vh 0 0;
+    top: 5vh;
+    left: 5vh;
+    z-index:99999;
+}
+
+#tab h1 {
+    font-family: "Mozilla Headline", sans-serif;
+    font-size: calc((40vh)/10);
+    color: #3D1B29;
+    margin: 1.5vh 0 0 3vh;
+}
+
+#closeButton {
+    height: calc((15vh * 0.39) - 1.5vh);
+    width: calc((15vh * 0.39) - 1.5vh);
+    background-image: url(src/closeButton.svg);
+    position: absolute;
+    top: 1.5vh;
+    right: 2vh;
+}
+
+#browser {
+    background-color: #FEB7D5;
+    width: calc(100vw - 10vh);
+    height: calc(15vh * 0.6);
+    box-sizing: border-box;
+    position: absolute;
+    border-style: solid;
+    border-color: #3D1B29;
+    border-radius: 0 3vh 0 0;
+    top: calc(5vh + (15vh * 0.4));
+    left: 5vh;
+    z-index:9999;
+    display: flex;
+    padding-left: 1.3vh;
+}
+
+#leftArrow {
+    height: calc((15vh * 0.39) - 1.5vh);
+    width: calc((15vh * 0.39) - 1.5vh);
+    background-image: url(src/leftArrow.svg);
+    margin: auto 0 auto 1vh;
+}
+
+#rightArrow {
+    height: calc((15vh * 0.39) - 1.5vh);
+    width: calc((15vh * 0.39) - 1.5vh);
+    background-image: url(src/rightArrow.svg);
+    margin: auto 0 auto 0.5vh;
+}
+
+#reload {
+    height: calc((15vh * 0.39) - 1.5vh);
+    width: calc((15vh * 0.39) - 1.5vh);
+    background-image: url(src/reload.svg);
+    margin: auto 0 auto 1vh;
+}
+
+.linkbar {
+    background-color: #FCF6F6;
+    height: calc((15vh * 0.39) - 1.5vh);
+    width: calc((15vh) - 1.5vh);
+    margin: auto 0 auto 1vh;
+    border-style: solid;
+    border-color: #3D1B29;
+    border-radius: 30vh;
+    line-height: calc((15vh * 0.39) - 1.5vh);;
+}
+
+#twitterLogo {
+    height: calc((15vh * 0.39) - 1.5vh);
+    width: calc((15vh * 0.39) - 1.5vh);
+}
+
+main {
+    background-color: #FEDEEB;
+    width: calc(100vw - 10vh);
+    height: 84vh;
+    box-sizing: border-box;
+    position: absolute;
+    border-style: solid;
+    border-radius: 3vh;
+    top: 11vh;
+    left: 5vh;
+} 
